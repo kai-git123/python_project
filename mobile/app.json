@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BTC 分析",
+    "slug": "btc-analysis",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e1117"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.group5.btcanalysis"
+    },
+    "android": {
+      "package": "com.group5.btcanalysis",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0e1117"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "btc-analysis"
+  }
+}
