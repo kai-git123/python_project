@@ -14,8 +14,8 @@ venv/
 .venv/
 env/
 
-# Data cache
-data/cache/
+# Data cache (intentionally kept for cloud deployment fallback)
+# data/cache/
 
 # Streamlit
 .streamlit/secrets.toml
